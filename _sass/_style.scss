@@ -10,7 +10,7 @@ body {
   font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #ddd;
   background-color: #333;
-  border-top: 5px solid #fc0;
+  // border-top: 5px solid #fc0;
   @include box-shadow(inset 0 3px 30px rgba(0,0,0,.3));
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   -webkit-font-feature-settings: "kern" 1;
@@ -18,6 +18,28 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
+}
+
+.alert-translate {
+  width: 100%;
+  padding: .3em 1em;
+  text-align: center;
+  background-color: #fc0;
+  text-shadow: none;
+
+  &, a {
+    color: #444;
+    margin: 0;
+  }
+
+  span {
+    color: #f00;
+    font-weight: 700;
+  }
+
+  a {
+    font-size: 1rem;
+  }
 }
 
 .clear {
