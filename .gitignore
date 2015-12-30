@@ -1,0 +1,12 @@
+Gemfile.lock
+*.gem
+*.swp
+*~
+_site/
+.bundle/
+.DS_Store
+.ruby-version
+.ruby-gemset
+.sass-cache
+tmp/*
+.jekyll-metadata
