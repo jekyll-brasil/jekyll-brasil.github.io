@@ -4,7 +4,7 @@ Este repositório contém o código para tradução do site e documentação do 
 
 ## Contribuindo com o Jekyll
 
-Para obter informações sobre como contribuir, veja a [Págiana de contribuição](http://jekyllrb.com/docs/contributing/).
+Para obter informações sobre como contribuir, veja a [Página de contribuição](http://jekyllrb.com/docs/contributing/).
 
 ## Contribuindo com a tradução
 
