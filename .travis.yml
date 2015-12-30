@@ -6,8 +6,6 @@ rvm:
 cache:
 - bundler
 
-gemfile: travisGemfile
-
 install:
 - bundle install
 
