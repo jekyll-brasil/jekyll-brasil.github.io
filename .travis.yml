@@ -26,7 +26,7 @@ env:
 branches:
   only:
   - master
-  - gh-pages
+  - source
 
 notifications:
   email: true

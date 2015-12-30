@@ -20,4 +20,4 @@ git config --global user.name "Travis CI"
 git init
 git add -A .
 git commit -m "Deploy to GitHub Pages"
-git push --force --quiet "https://${GH_TOKEN}@github.com/${GH_REF}" master:gh-pages > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@github.com/${GH_REF}" master
