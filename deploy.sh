@@ -14,10 +14,10 @@ cd ${HTML_FOLDER}
 
 # config
 git config --global user.email "jekyllbrasil@gmail.com"
-git config --global user.name "Jekyll Brasil"
+git config --global user.name "Travis CI"
 
 # deploy
 git init
-git add --all
+git add -A .
 git commit -m "Deploy to GitHub Pages"
-git push --force --quiet "https://${GH_TOKEN}@github.com/${GH_REF}" gh-pages
+git push --force --quiet "https://${GH_TOKEN}@github.com/${GH_REF}" master:gh-pages > /dev/null 2>&1
