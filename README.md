@@ -1,16 +1,28 @@
-# Jekyll docs site
+# Jekyll docs site [Tradução pt-br]
 
-This directory contains the code for the Jekyll docs site, [jekyllrb.com](http://jekyllrb.com/).
+Este repositório contém o código para tradução do site e documentação do Jekyll, [jekyllrb.com](http://jekyllrb.com/).
 
-## Contributing
+## Contribuindo com o Jekyll
 
-For information about contributing, see the [Contributing page](http://jekyllrb.com/docs/contributing/).
+Para obter informações sobre como contribuir, veja a [Págiana de contribuição](http://jekyllrb.com/docs/contributing/).
 
-## Running locally
+## Contribuindo com a tradução
 
-You can preview your contributions before opening a pull request by running from within the directory:
+1. De um Fork no repositório
+2. Crie sua branch para a funcionalidade: `git checkout -b NewTranslate`
+3. Commit suas alterações: `git commit -m 'Traduzi uma página bacana'`
+4. Mande o Push para sua branch: `git push origin NewTranslate`
+5. Entre no Github e envio o seu pull request :D
+
+## Rodando localmente
+
+Você pode visualizar suas alterações antes de abrir um pull request?
+
+Execute:
 
 1. `bundle install`
-2. `bundle exec rake site:preview`
+2. `jekyll serve`
 
-It's just a jekyll site, afterall! :wink:
+> Agora navegue para [http://localhost:4000](http://localhost:4000)
+
+É apenas um site jekyll, afinal! :wink:
