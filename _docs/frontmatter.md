@@ -3,12 +3,7 @@ layout: docs
 title: Front Matter
 permalink: /docs/frontmatter/
 ---
-
-The front matter is where Jekyll starts to get really cool. Any file that
-contains a [YAML](http://yaml.org/) front matter block will be processed by
-Jekyll as a special file. The front matter must be the first thing in the file
-and must take the form of valid YAML set between triple-dashed lines. Here is a
-basic example:
+O front matter é onde o jekyll começa a ficar realmente legal. Qualquer arquivo contendo um bloco [YAML](http://yaml.org/) front matter vai ser processado pelo jekyll como um arquivo especial. O front matter deve ser a primeira coisa no arquivo e deve assumir a forma de YAML válido colocado entre as linhas tracejadas. Aqui esta um exemplo básico.
 
 {% highlight yaml %}
 ---
@@ -17,43 +12,33 @@ title: Blogging Like a Hacker
 ---
 {% endhighlight %}
 
-Between these triple-dashed lines, you can set predefined variables (see below
-for a reference) or even create custom ones of your own. These variables will
-then be available to you to access using Liquid tags both further down in the
-file and also in any layouts or includes that the page or post in question
-relies on.
+Entre essas linhas tracejadas, você pode colocar variáveis predefinidas(veja abaixo para uma referencia) ou mesmo criar uma própria. Estas variáveis vão em seguida estar disponiveis para o acesso usando as tags do Liguid tanto mais para baixo no arquivo e também em qualquer layouts ou includes que a página ou o post em questão invoca.
 
 <div class="note warning">
-  <h5>UTF-8 Character Encoding Warning</h5>
+  <h5>UTF-8 Codificação de caracteres de aviso</h5>
   <p>
-    If you use UTF-8 encoding, make sure that no <code>BOM</code> header
-    characters exist in your files or very, very bad things will happen to
-    Jekyll. This is especially relevant if you’re running
-    <a href="../windows/">Jekyll on Windows</a>.
+    Se você usar codificação UTF-8, certifique-se de que não existem caracteres<code>BOM</code> no cabeçalho de seus arquivos ou coisas muito, muito ruins vão acontecer no jekyll. Isto é especialmente relevante se você estiver rodando <a href="../windows/">Jekyll no Windows</a>.
   </p>
 </div>
 
 <div class="note">
-  <h5>ProTip™: Front Matter Variables Are Optional</h5>
+  <h5>ProTip™: Variáveis são opcionais no Front Matter</h5>
   <p>
-    If you want to use <a href="../variables/">Liquid tags and variables</a>
-    but don’t need anything in your front matter, just leave it empty! The set
-    of triple-dashed lines with nothing in between will still get Jekyll to
-    process your file. (This is useful for things like CSS and RSS feeds!)
+    Se você deseja usar <a href="../variables/">tags Liquid e variáveis</a>
+    mas não precisa de nada no seu front matter, só deixe vázio! O conjunto de linhas tracejadas sem conteúdo entre elas ainda terá o Jekyll para processar o arquivo. (Isto é muito util para coisas como CSS e feeds RSS!)
   </p>
 </div>
 
-## Predefined Global Variables
+## Variáveis ​​globais predefinidas
 
-There are a number of predefined global variables that you can set in the
-front matter of a page or post.
+Existe um número de variáveis ​​globais predefinidas que você pode colocar no seu front matter de um página ou de um post.
 
 <div class="mobile-side-scroller">
 <table>
   <thead>
     <tr>
-      <th>Variable</th>
-      <th>Description</th>
+      <th>Variável</th>
+      <th>Descrição</th>
     </tr>
   </thead>
   <tbody>
@@ -64,9 +49,7 @@ front matter of a page or post.
       <td>
         <p>
 
-          If set, this specifies the layout file to use. Use the layout file
-          name without the file extension. Layout files must be placed in the
-          <code>_layouts</code> directory.
+          Se definido, especifica o layout do arquivo para usar. Use o nome do layout do arquivo sem sua extenção. Layout de arquivos devem ser colocados no diretório <code>_layouts</code>.
 
         </p>
       </td>
@@ -78,9 +61,7 @@ front matter of a page or post.
       <td>
         <p>
 
-          If you need your processed blog post URLs to be something other than
-          the site-wide style (default <code>/year/month/day/title.html</code>), then you can set
-          this variable and it will be used as the final URL.
+          Se você precisa que sua URL do post seja diferente do padrão de todo site (<code>/year/month/day/title.html</code>), então você pode definir uma variável e vai ser usado como URL final.
 
         </p>
       </td>
@@ -91,8 +72,7 @@ front matter of a page or post.
       </td>
       <td>
         <p>
-          Set to false if you don’t want a specific post to show up when the
-          site is generated.
+          Defina como false se você não quer que um post especifico seja gerado.
         </p>
       </td>
     </tr>
@@ -104,12 +84,7 @@ front matter of a page or post.
       <td>
         <p>
 
-          Instead of placing posts inside of folders, you can specify one or
-          more categories that the post belongs to. When the site is generated
-          the post will act as though it had been set with these categories
-          normally. Categories (plural key) can be specified as a <a
-          href="http://en.wikipedia.org/wiki/YAML#Lists">YAML list</a> or a
-          comma-separated string.
+          Ao invés de colocar post dentro de pastas, você pode especificar uma ou mais categorias que o post pertence. Quando o site é gerado o post vai agir como se tivesse sido definido com essas categorias normalmente. Categories (chave plural) pode ser especificado com uma <a href="http://en.wikipedia.org/wiki/YAML#Lists">lista YAML</a> ou uma String separada por virgula.
 
         </p>
       </td>
@@ -121,9 +96,7 @@ front matter of a page or post.
       <td>
         <p>
 
-          Similar to categories, one or multiple tags can be added to a post.
-          Also like categories, tags can be specified as a YAML list or a
-          comma-separated string.
+          Similar a categories, uma ou multiplas tags podem ser adicionadas a um post, também como categories, tags podem ser especificadas como uma lista YAML ou uma String separada por virgula.
 
         </p>
       </td>
@@ -132,13 +105,9 @@ front matter of a page or post.
 </table>
 </div>
 
+## Variáveis personalizadas.
 
-## Custom Variables
-
-Any variables in the front matter that are not predefined are mixed into the
-data that is sent to the Liquid templating engine during the conversion. For
-instance, if you set a title, you can use that in your layout to set the page
-title:
+Qualquer variavel no front matter que não é predefinida é misturada nos dados que esta sendo enviado para o Liguid templating engine durante a conversação. Por exemplo, se você definir um titulo, você pode usa-lo em seu layout para definir o titulo da página:
 
 {% highlight html %}
 <!DOCTYPE HTML>
@@ -150,16 +119,16 @@ title:
     ...
 {% endhighlight %}
 
-## Predefined Variables for Posts
+## Variáveis predefinidas para posts
 
-These are available out-of-the-box to be used in the front matter for a post.
+Estas informações estão disponiveis para ser usada no front matter de um post
 
 <div class="mobile-side-scroller">
 <table>
   <thead>
     <tr>
-      <th>Variable</th>
-      <th>Description</th>
+      <th>Variável</th>
+      <th>Descrição</th>
     </tr>
   </thead>
   <tbody>
@@ -169,10 +138,8 @@ These are available out-of-the-box to be used in the front matter for a post.
       </td>
       <td>
         <p>
-          A date here overrides the date from the name of the post. This can be
-          used to ensure correct sorting of posts. A date is specified in the
-          format <code>YYYY-MM-DD HH:MM:SS +/-TTTT</code>; hours, minutes, seconds, and timezone offset
-          are optional.
+          
+          A data aqui substitui a data do nome do post. Isto pode ser usado para garantir a ordenação correta dos posts. A data é especificada no formato <code>YYYY-MM-DD HH:MM:SS +/-TTTT</code>; horas, minutos, secundos, e deslocamento de fuso horário são opcionais.
         </p>
       </td>
     </tr>
@@ -181,11 +148,9 @@ These are available out-of-the-box to be used in the front matter for a post.
 </div>
 
 <div class="note">
-  <h5>ProTip™: Don't repeat yourself</h5>
+  <h5>ProTip™: Não se repita</h5>
   <p>
-    If you don't want to repeat your frequently used front matter variables
-    over and over, just define <a href="../configuration/#front-matter-defaults" title="Front Matter defaults">defaults</a>
-    for them and only override them where necessary (or not at all). This works
-    both for predefined and custom variables.
+    
+    Se você não quer repetir as suas variáveis do front matter usados com freqüência de novo e de novo, basta definir <a href="../configuration/#front-matter-defaults" title="Front Matter defaults">padrões</a> para eles e só substitui-los sempre que necessário (ou não em todos). Isso funciona para as variáveis predefinidos e personalizados.
   </p>
 </div>
