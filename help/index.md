@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Precisando de ajuda
+active: help
 ---
 
 Precisa de ajuda com Jekyll? Experimente estas opções
