@@ -1,36 +1,33 @@
 ---
 layout: page
-title: Getting Help
+title: Precisando de ajuda
+active: help
 ---
 
-Need help with Jekyll? Try these resources.
+Precisa de ajuda com Jekyll? Experimente estas opções
 
 ### [Google](https://google.com)
 
-Add **jekyll** to almost any query, and you'll find just what you need.
+Pesquise **jekyll** em qualquer consulta, e você irá encontrar exatamente o que precisa.
 
 ### [Jekyll Talk](https://talk.jekyllrb.com/)
 
-Jekyll Talk is our official Discourse forum. Here, users and contributors
-can ask questions and discuss all aspects of Jekyll.
+Jekyll Talk  é o nosso fórum oficial na plataforma Discourse. Aqui, usuários e colaboradores
+pode fazer perguntas e discutir todos os aspectos do Jekyll.
 
-### [Jekyll on StackOverflow](http://stackoverflow.com/questions/tagged/jekyll)
+### [Jekyll no StackOverflow](http://stackoverflow.com/questions/tagged/jekyll)
 
-StackOverflow is a staple of any developer's diet. Check out the Jekyll tag
-on StackOverflow for an answer to your question. Not there? Ask a new
-question!
+StackOverflow é o feijão-com-arroz de qualquer desenvolvedor. Confira a tag Jekyll
+no StackOverflow para encontrar as suas respostas. Não está lá? Abra uma nova dúvida!
 
-### [Jekyll IRC Channel](irc:irc.freenode.net/jekyll)
+### [Jekyll no IRC](irc:irc.freenode.net/jekyll)
 
-Get live support at **#jekyll** on **irc.freenode.net**, the official
-Jekyll IRC channel.
+Obtenha suporte em tempo real através **#jekyll** no **irc.freenode.net**, o IRC oficial do Jekyll.
 
-### [jekyll/jekyll](https://github.com/jekyll/jekyll/issues)
+### [Jekyll/Jekyll](https://github.com/jekyll/jekyll/issues)
 
-Search through the issues on the main Jekyll development. Think you've
-found a bug? File a new issue.
+Pesquise sobre os problemas no meio de desenvolvimento do Jekyll. Encontrou algum bug? Informe o problema o quanto antes.
 
-### [@jekyllrb on Twitter](https://twitter.com/jekyllrb)
+### [@jekyllrb no Twitter](https://twitter.com/jekyllrb)
 
-The official Jekyll Twitter account. It's not checked often, so try the
-above first.
+É o nosso Twitter oficial. Não é muito movimentado, por isso tente os outros meios de comunicação acima.
