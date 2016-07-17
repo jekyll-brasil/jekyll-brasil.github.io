@@ -1,4 +1,4 @@
-- title: Getting Started
+- title: Primeiros passos
   docs:
   - home
   - quickstart
@@ -7,7 +7,7 @@
   - structure
   - configuration
 
-- title: Your Content
+- title: Seu conteúdo
   docs:
   - frontmatter
   - posts
@@ -20,7 +20,7 @@
   - assets
   - migrations
 
-- title: Customization
+- title: Customização
   docs:
   - templates
   - permalinks
@@ -28,13 +28,13 @@
   - plugins
   - extras
 
-- title: Deployment
+- title: Publicação
   docs:
   - github-pages
   - deployment-methods
   - continuous-integration
 
-- title: Miscellaneous
+- title: Diversos
   docs:
   - troubleshooting
   - sites
