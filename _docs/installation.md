@@ -1,81 +1,78 @@
 ---
 layout: docs
-title: Installation
+title: Instalação
 permalink: /docs/installation/
 ---
 
-Getting Jekyll installed and ready-to-go should only take a few minutes. If it
-ever becomes a pain in the ass, please [file an
-issue]({{ site.repository }}/issues/new) (or submit a pull request)
-describing the issue you encountered and how we might make the process easier.
+Ter o Jekyll instalado e pronto para uso leva apenas alguns minutos. Se você está encontrando
+algum dificuldade, por favor [abra um tópico]({{ site.repository }}/issues/new) (ou envie um pull request) descrevendo o problema que você encontrou e como podemos tornar o processo mais simples.
 
-### Requirements
+### Requerimentos
 
-Installing Jekyll is easy and straight-forward, but there are a few
-requirements you’ll need to make sure your system has before you start.
+Instalar o Jekyll é fácil e direto, mas há alguns requerimentos que você irá precisar para
+seu sistema antes de começar.
 
-- [Ruby](http://www.ruby-lang.org/en/downloads/) (including development
-  headers, v1.9.3 or above for Jekyll 2 and v2 or above for Jekyll 3)
+- [Ruby](http://www.ruby-lang.org/en/downloads/) (incluindo development
+  headers, v1.9.3 ou acima para Jekyll 2 e v2 ou acima para Jekyll 3)
 - [RubyGems](http://rubygems.org/pages/download)
-- Linux, Unix, or Mac OS X
-- [NodeJS](http://nodejs.org), or another JavaScript runtime (Jekyll 2 and
-earlier, for CoffeeScript support).
-- [Python 2.7](https://www.python.org/downloads/) (for Jekyll 2 and earlier)
+- Linux, Unix, ou Mac OS X
+- [NodeJS](http://nodejs.org), ou outra plataforma JavaScript (Jekyll 2 e
+versões mais recentes, para o suporte do CoffeeScript).
+- [Python 2.7](https://www.python.org/downloads/) (para Jekyll 2 e versões mais recentes)
 
 <div class="note info">
-  <h5>Running Jekyll on Windows</h5>
+  <h5>Rodando Jekyll no Windows</h5>
   <p>
-    While Windows is not officially supported, it is possible to get it running
-    on Windows. Special instructions can be found on our
-    <a href="../windows/#installation">Windows-specific docs page</a>.
+    Embora que o Windows não seja oficialmente suportado, é possível conseguir rodá-lo. Instruções especiais podem ser encontradas na
+    <a href="../windows/#installation">página de instalação no Windows</a>.
   </p>
 </div>
 
-## Install with RubyGems
+## Instalando com RubyGems
 
-The best way to install Jekyll is via
-[RubyGems](http://rubygems.org/pages/download). At the terminal prompt,
-simply run the following command to install Jekyll:
+A melhor maneira de instalar o Jekyll é através d
+[RubyGems](http://rubygems.org/pages/download). No terminal, simples execute o seguinte comando para instalá-lo:
 
 {% highlight bash %}
 $ gem install jekyll
 {% endhighlight %}
 
-All of Jekyll’s gem dependencies are automatically installed by the above
-command, so you won’t have to worry about them at all. If you have problems
-installing Jekyll, check out the [troubleshooting](../troubleshooting/) page or
-[report an issue]({{ site.repository }}/issues/new) so the Jekyll
-community can improve the experience for everyone.
+Todas as dependências gem do Jekyll são automaticamente instaladas através deste comando, 
+então você não precisa se preocupar com eles. Se você está com problemas ao instalá-lo, veja a 
+página de [solução de problemas](../troubleshooting/) ou [reporte o problema]({{ site.repository }}/issues/new)
+para que a comunidade Jekyll possa melhorar a experência para todos.
+
 
 <div class="note info">
-  <h5>Installing Xcode Command-Line Tools</h5>
+  <h5>Instalando a ferramenta de comando de linha Xcode</h5>
   <p>
-    If you run into issues installing Jekyll's dependencies which make use of
-    native extensions and are using Mac OS X, you will need to install Xcode
-    and the Command-Line Tools it ships with. Download in
+    Se você está tendo problema na instalação das dependências do Jekyll que 
+    fazem o uso de extensões nativas e está utilizado o Mac OS X, você deverá 
+    instalar o Xcode e a sua ferramente de comando de linha que vem junto. Baixe através de
     <code>Preferences &#8594; Downloads &#8594; Components</code>.
   </p>
 </div>
 
-## Pre-releases
+## Pré-lançamentos
 
-In order to install a pre-release, make sure you have all the requirements
-installed properly and run:
+A fim de instalar um pré-lançamento, tenha a certeza de já possuir todos os
+requerimentos instalados corretamente e executar o seguinte comando:
 
 {% highlight bash %}
 gem install jekyll --pre
 {% endhighlight %}
 
-This will install the latest pre-release. If you want a particular pre-release,
-use the `-v` switch to indicate the version you'd like to install:
+Isto será instalado a última versão de pré-lançamento. Se você deseja uma versão
+mais específica, use o `-v` para indicar a versão que deseja instalar:
 
 {% highlight bash %}
 gem install jekyll -v '2.0.0.alpha.1'
 {% endhighlight %}
 
-If you'd like to install a development version of Jekyll, the process is a bit
-more involved. This gives you the advantage of having the latest and greatest,
-but may be unstable.
+
+Se você quer instalar uma versão de desenvolvimento do Jekyll, o processo é um pouco
+mais trabalhoso. Isto lhe dá a vantagem de ter a última e maior versão, mas pode ser
+instável.
 
 {% highlight bash %}
 $ git clone git://github.com/jekyll/jekyll.git
@@ -85,22 +82,23 @@ $ bundle exec rake build
 $ ls pkg/*.gem | head -n 1 | xargs gem install -l
 {% endhighlight %}
 
-## Optional Extras
+## Extras opcionais
 
-There are a number of (optional) extra features that Jekyll supports that you
-may want to install, depending on how you plan to use Jekyll. These extras
-include LaTeX support, and the use of alternative content rendering engines.
-Check out [the extras page](../extras/) for more information.
+Há algumas funcionalidades extras opcionais que o Jekyll possui que possa 
+lhe interessar, dependendo de como você irá utilizá-lo. Estes extras incluem
+o suporte ao LaTeX, e algumas alternativas em relação aos renderizadores de 
+conteúdo.
+Verifique [a página extras](../extras/) para mais informações.
 
 <div class="note">
-  <h5>ProTip™: Enable Syntax Highlighting</h5>
+  <h5>ProDicas™: Habilite a sintaxe de marcação</h5>
   <p>
-    If you’re the kind of person who is using Jekyll, then chances are you’ll
-    want to enable syntax highlighting using <a href="http://pygments.org/">Pygments</a>
-    or <a href="https://github.com/jayferd/rouge">Rouge</a>. You should really
-    <a href="../templates/#code-snippet-highlighting">check out how to
-    do that</a> before you go any farther.
+    Já que você está utilizando o Jekyll, então é possível que você queira
+    habilitar a sintaxe de marcação usando o <a href="http://pygments.org/">Pygments</a>
+    ou até mesmo o <a href="https://github.com/jayferd/rouge">Rouge</a>. Você realmente deveria
+    <a href="../templates/#code-snippet-highlighting">dar uma olhada de como
+    fazer isso</a> antes de ir mais pra frente.
   </p>
 </div>
 
-Now that you’ve got everything installed, let’s get to work!
+Agora que está tudo instalado, mãos à massa!

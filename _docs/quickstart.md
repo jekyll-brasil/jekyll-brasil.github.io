@@ -1,27 +1,23 @@
 ---
 layout: docs
-title: Quick-start guide
+title: Guia de início rápido
 permalink: /docs/quickstart/
 ---
-
-For the impatient, here's how to get a boilerplate Jekyll site up and running.
+Para os impacientes, aqui embaixo mostra como subir um site com Jekyll. 
 
 {% highlight bash %}
 ~ $ gem install jekyll
-~ $ jekyll new myblog
-~ $ cd myblog
-~/myblog $ jekyll serve
-# => Now browse to http://localhost:4000
+~ $ jekyll new meu-impressionante-site
+~ $ cd meu-impressionante-site
+~/meu-impressionante-site $ jekyll serve
+# => Agora navegue para http://localhost:4000
 {% endhighlight %}
 
-If you wish to install jekyll into the current directory, you can do so by
-alternatively running `jekyll new .` instead of a new directory name.
+Se você deseja instalar o Jekyll no diretório atual, você pode executar o comando
+`jekyll new .` ao invés de um novo nome de diretório.
 
-That's nothing, though. The real magic happens when you start creating blog
-posts, using the front matter to control templates and layouts, and taking
-advantage of all the awesome configuration options Jekyll makes available.
+Embora que isto não é nada. A verdade mágica acontece quando você começa a criar os posts do seu site, utilizando o front matter para gerenciar templates e layouts, e ter a vantagem de todas as incríveis opções de configuração do Jekyll que estão disponíveis.
 
-If you're running into problems, ensure you have all the [requirements
-installed][Installation].
+Se você está tendo problemas, assegure-se de ter [todos os requerimentos instalados][Instalação]. 
 
-[Installation]: /docs/installation/
+[Instalação]: /docs/installation/
