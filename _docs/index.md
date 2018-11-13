@@ -1,56 +1,52 @@
 ---
 layout: docs
-title: Welcome
+title: Bem vindo!
 permalink: /docs/home/
 ---
 
-This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such
-as getting your site up and running, creating and managing your content,
-customizing the way your site works and looks, deploying to various
-environments, and give you some advice on participating in the future
-development of Jekyll itself.
+Este site pretende ser um guia completo para Jekyll. Abordaremos tópicos como colocar seu site em funcionamento, criar e gerenciar seu conteúdo, personalizar a forma como seu site funciona e se parece, implantar em vários ambientes e fornecer alguns conselhos sobre como participar do desenvolvimento futuro do próprio Jekyll.
 
-## So what is Jekyll, exactly?
+## Então, o que é exatamente o Jekyll?
 
-Jekyll is a simple, blog-aware, static site generator. It takes a template
-directory containing raw text files in various formats, runs it through
-a converter (like [Markdown](http://daringfireball.net/projects/markdown/))
-and our [Liquid](https://github.com/Shopify/liquid/wiki) renderer, and
-spits out a complete, ready-to-publish static website suitable
-for serving with your favorite web server. Jekyll also happens to be the engine
-behind [GitHub Pages](http://pages.github.com), which means you can use Jekyll
-to host your project’s page, blog, or website from GitHub’s servers **for
+O Jekyll é um gerador de sites estático, simples e com reconhecimento de blogs. É preciso um modelo
+diretório contendo arquivos de texto bruto em vários formatos, executa-o
+um conversor (como [Markdown] (http://daringfireball.net/projects/markdown/))
+e nosso renderizador [Liquid] (https://github.com/Shopify/liquid/wiki), e
+cospe um site estático completo, pronto para publicar, adequado
+para servir com seu servidor da Web favorito. Jekyll também passa a ser o motor
+por trás de [Páginas do GitHub] (http://pages.github.com), o que significa que você pode usar Jekyll
+para hospedar a página, o blog ou o site de seu projeto dos servidores do GitHub **for
 free**.
 
-## Helpful Hints
+## Dicas úteis
 
-Throughout this guide there are a number of small-but-handy pieces of
-information that can make using Jekyll easier, more interesting, and less
-hazardous. Here’s what to look out for.
+Ao longo deste guia, há uma série de pequenos, mas úteis,
+informações que podem tornar o uso do Jekyll mais fácil, mais interessante e menos
+perigoso. Aqui está o que procurar.
 
-<div class="note">
-  <h5>ProTips™ help you get more from Jekyll</h5>
-  <p>These are tips and tricks that will help you be a Jekyll wizard!</p>
-</div>
+<div class = "note">
+  <h5> ProTips ™ ajuda você a obter mais do Jekyll </ h5>
+  <p> Estas são dicas e truques que ajudarão você a ser um mago Jekyll! </ p>
+</ div>
 
-<div class="note info">
-  <h5>Notes are handy pieces of information</h5>
-  <p>These are for the extra tidbits sometimes necessary to understand
-     Jekyll.</p>
-</div>
+<div class = "note info">
+  <h5> Notas são informações úteis </ h5>
+  <p> Estes são os itens extras que às vezes são necessários para entender
+     Jekyll. </ P>
+</ div>
 
-<div class="note warning">
-  <h5>Warnings help you not blow things up</h5>
-  <p>Be aware of these messages if you wish to avoid certain death.</p>
-</div>
+<div class = "aviso de nota">
+  <h5> Avisos ajudam você a não explodir coisas </ h5>
+  <p> Esteja ciente destas mensagens se quiser evitar a morte certa. </ p>
+</ div>
 
-<div class="note unreleased">
-  <h5>You'll see this by a feature that hasn't been released</h5>
-  <p>Some pieces of this website are for future versions of Jekyll that
-    are not yet released.</p>
-</div>
+<div class = "nota não lançada">
+  <h5> Você verá isso por um recurso que não foi lançado </ h5>
+  <p> Algumas partes deste site são para versões futuras do Jekyll que
+    ainda não foram liberados. </ p>
+</ div>
 
-If you come across anything along the way that we haven’t covered, or if you
-know of a tip you think others would find handy, please [file an
-issue]({{ site.repository }}/issues/new) and we’ll see about
-including it in this guide.
+Se você se deparar com alguma coisa ao longo do caminho que não tenhamos coberto, ou se você
+sabe de uma dica que você acha que os outros acham útil, por favor [arquive um
+questão] ({{site.repository}} / issues / new) e vamos ver sobre
+incluindo-o neste guia.
