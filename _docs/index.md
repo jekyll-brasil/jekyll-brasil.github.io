@@ -25,28 +25,28 @@ informações que podem tornar o uso do Jekyll mais fácil, mais interessante e 
 perigoso. Aqui está o que procurar.
 
 <div class = "note">
-  <h5> ProTips ™ ajuda você a obter mais do Jekyll </ h5>
-  <p> Estas são dicas e truques que ajudarão você a ser um mago Jekyll! </ p>
-</ div>
+  <h5>ProTips ™ajuda você a obter mais do Jekyll</ h5>
+  <p>Estas são dicas e truques que ajudarão você a ser um mago Jekyll!</p>
+</div>
 
 <div class = "note info">
-  <h5> Notas são informações úteis </ h5>
-  <p> Estes são os itens extras que às vezes são necessários para entender
-     Jekyll. </ P>
-</ div>
+  <h5>Notas são informações úteis</h5>
+  <p>Estes são os itens extras que às vezes são necessários para entender
+     Jekyll. </P>
+</div>
 
-<div class = "aviso de nota">
-  <h5> Avisos ajudam você a não explodir coisas </ h5>
-  <p> Esteja ciente destas mensagens se quiser evitar a morte certa. </ p>
-</ div>
+<div class="aviso de nota">
+  <h5>Avisos ajudam você a não explodir coisas</h5>
+  <p>Esteja ciente destas mensagens se quiser evitar a morte certa.</p>
+</div>
 
 <div class = "nota não lançada">
-  <h5> Você verá isso por um recurso que não foi lançado </ h5>
+  <h5> Você verá isso por um recurso que não foi lançado</h5>
   <p> Algumas partes deste site são para versões futuras do Jekyll que
-    ainda não foram liberados. </ p>
-</ div>
+    ainda não foram liberados.</p>
+</div>
 
 Se você se deparar com alguma coisa ao longo do caminho que não tenhamos coberto, ou se você
 sabe de uma dica que você acha que os outros acham útil, por favor [arquive um
-questão] ({{site.repository}} / issues / new) e vamos ver sobre
+questão]({{site.repository}}/issues/new) e vamos ver sobre
 incluindo-o neste guia.
